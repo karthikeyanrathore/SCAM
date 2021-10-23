@@ -1,6 +1,6 @@
 # intern
 
-## Tools
+Tools
 - Mongo DB
 - fast api
 - https://testdriven.io/blog/fastapi-mongo/
@@ -9,7 +9,7 @@
 - https://github.com/mongodb-developer/mongodb-with-fastapi
 
 
-## Mongo vs MySQL
+Mongo vs MySQL
 - database = database
 - tables = collections
 - rows = document(BSON)
@@ -17,20 +17,20 @@
 - https://www.codewithharry.com/blogpost/mongodb-cheatsheet
 - https://docs.mongodb.com/manual/reference/sql-comparison/
 
-## Mongo
+Mongo
 - One to One
 - tables/collections join (https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/#mongodb-pipeline-pipe.-lookup)
 
 
 
-## Mongo db client
+Mongo db client
 - Motor
 - pymongo
 
 
 
 
-## ignore
+ignore
 db.inventory.insertMany( [
    { item: "canvas", qty: 100, size: { h: 28, w: 35.5, uom: "cm" }, status: "A" },
    { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
