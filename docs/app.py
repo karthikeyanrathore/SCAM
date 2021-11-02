@@ -4,7 +4,7 @@ from route import router as UserRouter
 
 app = FastAPI()
 
-app.include_router(UserRouter, tags=['Student'], prefix="/student")
+app.include_router(UserRouter, tags=['User'], prefix="/user")
 
 
 @app.get("/", tags=["Root"])
